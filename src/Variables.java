@@ -39,8 +39,6 @@ public class Variables {
         char charMax = 65535;
         char minChar = 0;
 
-
-
         // Wrapper classes
     }
 }
