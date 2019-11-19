@@ -1,0 +1,74 @@
+Utility libraries for java
+Google Guava
+apache commons
+apache Log4j
+
+Distrubuted System Libraries
+Netty Hig-performance networking
+Akka high level actor model for concurrency
+RxJAva
+Apache Camel
+
+Data-access Libraries
+Java Database Connectivity
+
+Practices and common tools
+
+IDEs features
+-code completion
+-inline documentation
+-debugging
+-formatting
+-version control
+
+IDEs
+-eclipse; open source
+-Intellij
+
+Unit Testing - code to test code
+JUnit
+mocking - testing dependencies
+Mockito
+
+code coverage - marks lines of code that has been used
+
+Build tools: repeatable code, managing multiple modules, managing external depends, test
+Maven
+Gradel
+
+CI - continous integration server
+-Jenkins
+
+Static Code Analysis
+-Checkstyle
+-Spotbugs
+-PMD
+-SonarQube
+
+JVM languages
+Groovy
+Scala
+
+Collections framework
+Iterable is parent of
+collection is parent of
+SET, LIST and Queue
+
+SET - no duplicates, unordered
+LISTS - duplicates, order is significant. Removing lots of elevements
+in the middle of a list would be faster then in an array but takes up more memory since it
+holds a reference to the memory, next and previous linked list.
+QUEUE - first in first out operations
+MAP - key-value pairs
+
+linked hashmap - secures that the order of the hashmap remains
+Streams use internal iteration instead of external iteration. it's more efficient
+ and seperates loops and abstracts.
+
+Streams, a stream can only flow in or out.
+InputStreams, abstract
+OutputStreams, abstract
+
+
+
+
